@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador</title>
+</head>
+<body>
+    <main class="container">
+        <section class="container__left">
+            <a href="https://www.alura.com.br/" target="_blank" class="container__left__logo">
+                <img src="./assets/image/logoAlura.svg.svg" alt="Logo Alura">
+            </a>
+            <textarea name="textarea" id="textarea" cols="10" rows="12" class="container__left__textarea" placeholder="Digite aqui seu texto ou palavra que deseja criptografar ou descriptografar"></textarea>
+            <div class="container__left__warning">
+                <img src="./assets/image/alert.svg.svg" alt="Icone de Informacao">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="container__left__buttons">
+                <button class="container__left__buttons__cripto">Criptografar</button>
+                <button class="container__left__buttons__descripto">Descriptografar</button>
+            </div>
+        </section>
+        <section class="container__right">
+            <img class="container__right__img" src="./assets/image/garotaLupa.svg" alt="Imagem de uma pessoa com uma lupa">
+            <div class="container__right__warning">
+                <h2 class="container__right__warning__title">Nenhuma mensagem encontrada</h2>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            <p class="container__right__resultado"></p>
+            <button class="container__right__copy">Copiar</button>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por <a href="https://github.com/sthefanyboaventura" target="_blank">Sthefany Santos Boaventura</a></p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
